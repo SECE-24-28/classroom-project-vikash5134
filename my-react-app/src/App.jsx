@@ -1,11 +1,12 @@
 import "./App.css";
-import TrustedbyComponent from "./trusted-by/trusted-by-component";
-import GetInTouchComponent from "./get-in-touch/get-in-touch-component";
+import PropsPractice from "./props-practice/props-style";
 
 function App() {
   return (
     <div>
-      <GetInTouchComponent />
+      <PropsPractice name="John Doe" mobile="9876543210" />
+      <PropsPractice name="Jane Smith" mobile="8765432109" />
+      <PropsPractice name="Bob Johnson" mobile="7654321098" />
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
-import { PostionStyle } from "./position-style";
-const PostionComponent = () => {
+import { PositionStyle } from "./position-style";
+const PositionComponent = () => {
   return (
-    <PostionStyle>
+    <PositionStyle>
       <div className="element"></div>
       <div className="element__one"></div>
       <div className="element__one"></div>
@@ -13,7 +13,7 @@ const PostionComponent = () => {
       <div className="square">
         <div className="square__element"></div>
       </div>
-    </PostionStyle>
+    </PositionStyle>
   );
 };
-export default PostionComponent;
+export default PositionComponent;
